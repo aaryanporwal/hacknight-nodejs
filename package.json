@@ -1,0 +1,20 @@
+{
+  "name": "jokes",
+  "version": "1.0.0",
+  "description": "fetch jokes from command line",
+  "main": "./bin/jokes.js",
+  "bin": {
+    "jokes": "bin/jokes.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aaryan Porwal",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "boxen": "^5.0.0",
+    "chalk": "^4.1.0",
+    "yargs": "^16.2.0"
+  }
+}
